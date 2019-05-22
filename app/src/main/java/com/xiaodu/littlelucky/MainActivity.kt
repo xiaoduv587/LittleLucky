@@ -1,17 +1,21 @@
 package com.xiaodu.littlelucky
 
-import com.kotlin.base.ui.activity.DefaultActivity
+import android.app.Activity
+import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 
-class MainActivity : DefaultActivity() {
+//项目的主页
+class MainActivity : AppCompatActivity() {
 
+    private val TAG="MainActivity"
 
-    override fun setLayoutResID(): Int {
-        return R.layout.activity_main
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
     }
 
 
-    override fun init() {
-    }
+
 
 
 }
