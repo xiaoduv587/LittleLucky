@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/dealer_main_title">
+
+
+    <ImageView
+        android:id="@+id/mIvLeft"
+        android:layout_width="@dimen/_38dp"
+        android:layout_height="@dimen/_38dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="@dimen/_10dp"
+        android:gravity="center"
+        android:padding="@dimen/_10dp"
+        android:paddingTop="@dimen/_40dp"
+        android:src="@drawable/back" />
+
+    <com.kotlin.base.widgets.font.RegularTextView
+        android:id="@+id/mTvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_38dp"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_18dp"
+        tools:text="标题" />
+
+    <ImageView
+        android:id="@+id/mIvRightScan"
+        android:layout_width="@dimen/_38dp"
+        android:layout_height="@dimen/_38dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="@dimen/_60dp"
+        android:padding="@dimen/_10dp"
+        android:paddingTop="@dimen/_40dp"
+        android:src="@drawable/scan_icon"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/mIvRight"
+        android:layout_width="@dimen/_38dp"
+        android:layout_height="@dimen/_38dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="@dimen/_15dp"
+        android:gravity="center"
+        android:padding="@dimen/_10dp"
+        android:paddingTop="@dimen/_40dp"
+        android:src="@drawable/search_white"
+        android:visibility="gone" />
+
+    <com.kotlin.base.widgets.font.RegularTextView
+        android:id="@+id/mTvRight"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_38dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="@dimen/_20dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_18sp"
+        tools:text="筛选" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/line_black"
+        android:visibility="gone" />
+
+
+</RelativeLayout>

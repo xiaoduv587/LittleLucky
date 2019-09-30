@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#3d3d3d</color>
+    <color name="colorPrimary">#03a9f4</color>
+    <color name="colorPrimaryDark">#03a9f4</color>
+    <color name="common_bg">#f5f5f5</color>
+    <color name="common_black">#000000</color>
+    <color name="common_blue">#03a9f4</color>
+    <color name="common_blue_dark">#0288d1</color>
+    <color name="common_blue_light">#039be5</color>
+    <color name="common_disable">#d9d9d9</color>
+    <color name="common_divider">#d4d4d4</color>
+    <color name="common_gray">#dddddd</color>
+    <color name="common_purple">#d500f9</color>
+    <color name="common_red">#f11919</color>
+    <color name="common_white">#ffffff</color>
+    <color name="common_yellow">#fe9c2f</color>
+    <color name="status">#00ADE9</color>
+
+    <color name="text_dark">#999999</color>
+    <color name="text_light_dark">#333333</color>
+    <color name="text_normal">#666666</color>
+    <color name="transparent">#00000000</color>
+
+
+
+    <!--&lt; 仿ios的dialog开始->-->
+    <!--覆盖颜色-->
+    <color name="bgColor_overlay">#60000000</color>
+    <!--窗口背景颜色-->
+    <color name="bgColor_alertview_alert">#f8f8f8</color>
+    <color name="bgColor_alertview_alert_start">#f0f0f0</color>
+    <!--标题颜色-->
+    <color name="textColor_alert_title">#000000</color>
+    <color name="textColor_actionsheet_title">#8f8f8f</color>
+    <!--消息颜色-->
+    <color name="textColor_alert_msg">#000000</color>
+    <color name="textColor_actionsheet_msg">#8f8f8f</color>
+    <!--线条颜色-->
+    <color name="bgColor_divier">#d7d7db</color>
+    <!--取消按钮颜色-->
+    <color name="textColor_alert_button_cancel">#007aff</color>
+    <!--高亮按钮颜色-->
+    <color name="textColor_alert_button_destructive">#ff3b30</color>
+    <!--普通按钮文字颜色-->
+    <color name="textColor_alert_button_others">#007aff</color>
+    <!--点击颜色-->
+    <color name="bgColor_alert_button_press">#EAEAEA</color>
+    <!--actionsheet模式的取消按钮背景颜色-->
+    <color name="bgColor_actionsheet_cancel_nor">#ffffff</color>
+
+    <!--&lt; 仿ios的dialog结束->-->
+
+    <!-- 黑色 -->
+    <color name="black">#666666</color>
+    <!-- 黑色加深 -->
+    <color name="black_dark">#333333</color>
+
+    <color name="black_default">#000000</color>
+    <!--浅黑色-->
+    <color name="black_light">#999999</color>
+    <!--浅黑色-->
+    <color name="bg_gray">#F5F5F5</color>
+    <!--浅黑色-->
+    <color name="divider_gray">#EEEEEE</color>
+    <color name="bg_gray_dark">#aeaeae</color>
+    <color name="divid_gray">#E6E6E6</color>
+    <!--按钮加深颜色-->
+    <color name="bg_button">#cc0033</color>
+    <!--action 红色-->
+    <color name="bg_action">#E91E32</color>
+    <!--text color-->
+    <!--灰色-->
+    <color name="text_gray">#6d6d6d</color>
+    <color name="text_black">#444444</color>
+    <color name="text_gray_light">#999999</color>
+    <!--灰色-->
+    <color name="text_light_gray">#323232</color>
+    <!--银灰色-->
+    <color name="text_silver">#b5b5b5</color>
+    <!--白色-->
+    <color name="white">#FFFFFF</color>
+    <color name="bg_transparent">#00000000</color>
+
+    <!-- loading -->
+    <color name="loading">#7F7F7F</color>
+    <!-- 分隔线 -->
+    <color name="bg_app_line">#dddddd</color>
+    <!-- 橘黄色 -->
+    <color name="bg_orange">#fa7600</color>
+    <!-- 灰白 -->
+    <color name="bg_greywhite">#f0f2f5</color>
+    <!-- 灰白 -->
+    <color name="blue">#2184FD</color>
+    <color name="blue_dark">#173d93</color>
+    <color name="text_blue">#258cfd</color>
+    <color name="bg_red">#F44A4A</color>
+    <!--line color-->
+    <!--银灰色-->
+    <color name="line_silver">#d5d8de</color>
+    <!--灰色-->
+    <color name="line_divide">#dcdcdc</color>
+    <!--灰色-->
+    <color name="line_gray">#b3b3b3</color>
+    <color name="line_color">#E0E0E0</color>
+
+    <color name="line_black">#e0e2e6</color>
+    <color name="rect">#aae84e40</color>
+    <!--项目主颜色-->
+    <color name="bg_app">#B00006</color>
+    <color name="background_tab_pressed">#ffffff</color>
+    <!--首页绿色-->
+    <color name="home_gree">#17a133</color>
+
+    <!--深蓝色-->
+    <color name="line_dark_blue">#4E6B8F</color>
+    <!--字体数字的颜色-->
+    <color name="text_num">#53F800</color>
+    <!--待入库的颜色-->
+    <color name="text_ruku">#F4AD19</color>
+    <!--入库列表按钮颜色-->
+    <color name="btn_background">#678DBE</color>
+    <!--搜索失败-->
+    <color name="search_empty">#A3A3A3</color>
+    <color name="login">#B0C9E8</color>
+
+    <!--底部弹出按钮颜色-->
+    <color name="transparent_70">#70000000</color>
+
+
+    <color name="empty">#999999</color>
+    <color name="_979797">#979797</color>
+    <!--主页导航栏颜色-->
+    <color name="dealer_main_title">#0088fb</color>
+
+    <!--按钮触发前-->
+    <color name="dealer_button_default">#CECECE</color>
+    <!--按钮触发后-->
+    <color name="dealer_button_pressed">#3ABBE9</color>
+
+    <!--首页 button边框描边-->
+    <color name="dealer_main_button_border">#D7DEFF</color>
+    <!--首页底部导航  默认-->
+    <color name="main_bottom_text_normal">#7A7E83</color>
+    <!--首页底部导航 文字 选中后-->
+    <color name="main_bottom_text_pressed">#00ADE9</color>
+
+    <!--主页标题文字-->
+    <color name="dealer_main_title_text">#fcfcfc</color>
+
+    <!--下划线-->
+    <color name="dealer_common_line">#E7E7E7</color>
+
+
+    <!--通用蓝色 button-->
+    <color name="common_button_blue">#3ABBE9</color>
+
+    <!--通用黄色 button-->
+    <color name="dealer_common_button_yellow">#FE9D16</color>
+    <!--通用灰色 button-->
+    <color name="dealer_common_button_gray">#9FA5AC</color>
+
+    <!--所有灰色字体 text-->
+    <color name="dealer_common_text_gray">#333333</color>
+    <!--所有黄色字体 text-->
+    <color name="dealer_common_text_yellow">#FE9D16</color>
+    <!--所有黑色字体 text-->
+    <color name="dealer_common_text_black">#232323</color>
+    <!--通用红色-->
+    <color name="dealer_common_text_red">#FF5000</color>
+
+    <!--浅灰-->
+    <color name="bg">#F3F3F3</color>
+    <color name="gary_E7E7E7">#E7E7E7</color>
+    <color name="gary_FAFAFA">#FAFAFA</color>
+    <color name="gray">#F7F7F7</color>
+    <color name="gray_F6F6F6">#F6F6F6</color>
+    <color name="gray_E4E4E3">#E4E4E3</color>
+    <color name="gray_FCFCFC">#fcfcfc</color>
+    <color name="gray_EEEFF4">#eeeff4</color>
+
+
+
+    <!--筛选颜色-->
+    <color name="filtrate_state">#D2F3FF</color>
+    <color name="filtrate_noraml">#EFEFF4</color>
+
+    <!--对话框按钮颜色-->
+    <color name="dialog_button">#007AFF</color>
+
+
+
+
+
+</resources>

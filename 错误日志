@@ -1,0 +1,17 @@
+2019-09-23 19:14:09.345 14604-14604/com.xiaodu.littlelucky E/MemoryLeakMonitorManager: MemoryLeakMonitor.jar is not exist!
+2019-09-23 19:14:09.570 14604-14604/com.xiaodu.littlelucky E/Minikin: Could not get cmap table size!
+错误代码
+        val p2 = Person()
+        p2.name = "lucky"
+        p2.address = "北京海淀"
+        p2.save(object : SaveListener<String>() {
+         //注释为正确代码，多了一个问号
+         // override fun done(objectId: String?, e: BmobException?) {
+            override fun done(objectId: String, e: BmobException?) {
+                if (e == null) {
+                    toast("添加数据成功，返回objectId为：$objectId")
+                } else {
+                    toast("创建数据失败：" + e.message)
+                }
+            }
+        })

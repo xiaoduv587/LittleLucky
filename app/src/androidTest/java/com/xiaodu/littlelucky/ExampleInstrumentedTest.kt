@@ -1,6 +1,7 @@
 package com.xiaodu.littlelucky
 
 
+import androidx.test.InstrumentationRegistry
 import org.junit.Test
 import org.junit.runner.RunWith
 
@@ -15,7 +16,7 @@ class ExampleInstrumentedTest {
     @Test
     fun useAppContext() {
         // Context of the app under test.
-//        val appContext = InstrumentationRegistry.getTargetContext()
-//        assertEquals("com.xiaodu.littlelucky", appContext.packageName)
+        val appContext = InstrumentationRegistry.getTargetContext()
+        assertEquals("com.xiaodu.littlelucky", appContext.packageName)
     }
 }

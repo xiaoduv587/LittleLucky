@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BaseLibrary</string>
+
+    <string name="test">测试(占位符)</string>
+
+
+    <string name="nav_bar_home">首页</string>
+    <string name="nav_bar_warehouse">库存</string>
+    <string name="nav_bar_statistics">统计分析</string>
+    <string name="nav_bar_user">我的</string>
+</resources>
